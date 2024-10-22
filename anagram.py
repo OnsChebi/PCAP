@@ -1,5 +1,7 @@
-text1=input("enter first text :")
-text2=input("enter second  text :")
+text1=input("enter first text :").lower()
+text2=input("enter second  text :").lower(
+
+)
 anagram=False
 if len(text1)==len(text2):
     for i in text1:
